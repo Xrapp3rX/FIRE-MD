@@ -546,7 +546,8 @@ ${readMore}
      
 
 🔥───『 *INFO*』───🔥 
-│*Reply with the number*
+│*note: always remember to use .cleartmp once a day for your bot to last 
+ Reply with the number*
 │ to get respected Menu or type the command e.g [.botmenu]*
 ╰───────⳹
 ╭───────⳹
@@ -585,7 +586,7 @@ ${readMore}
       externalAdReply: {
         title: 'FIRE MD',
         body: 'ᴍᴇɴᴜ',
-        thumbnailUrl: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg',
+        thumbnailUrl: 'https://i.imgur.com/tStJm2M.jpeg',
         sourceUrl: 'https://whatsapp.com/channel/0029VajYjMJJf05aRQXKx82W',
         mediaType: 1,
         renderLargerThumbnail: false,
@@ -619,56 +620,56 @@ handler.before = async (m, { conn }) => {
   if (choice === '1') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' }, caption: botmenu },
+      { image: { url: 'https://i.imgur.com/tStJm2M.jpeg' }, caption: botmenu },
       { quoted: fcontact }
     )
   } else if (choice === '2') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' }, caption: ownermenu },
+      { image: { url: 'https://i.imgur.com/tStJm2M.jpeg' }, caption: ownermenu },
       { quoted: fcontact }
     )
   } else if (choice === '3') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' }, caption: groupmenu },
+      { image: { url: 'https://i.imgur.com/tStJm2M.jpeg' }, caption: groupmenu },
       { quoted: fcontact }
     )
   } else if (choice === '4') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' }, caption: funmenu },
+      { image: { url: 'https://i.imgur.com/tStJm2M.jpeg' }, caption: funmenu },
       { quoted: fcontact }
     )
   } else if (choice === '5') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' }, caption: reactmenu },
+      { image: { url: 'https://i.imgur.com/tStJm2M.jpeg' }, caption: reactmenu },
       { quoted: fcontact }
     )
   } else if (choice === '6') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' }, caption: dlmenu },
+      { image: { url: 'https://i.imgur.com/tStJm2M.jpeg' }, caption: dlmenu },
       { quoted: fcontact }
     )
   } else if (choice === '7') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' }, caption: groupmenu },
+      { image: { url: 'https://i.imgur.com/tStJm2M.jpeg' }, caption: groupmenu },
       { quoted: fcontact }
     )
   } else if (choice === '8') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' }, caption: logomenu },
+      { image: { url: 'https://i.imgur.com/tStJm2M.jpeg' }, caption: logomenu },
       { quoted: fcontact }
     )
   } else if (choice === '9') {
     await conn.sendMessage(
       m.chat,
       {
-        image: { url: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' },
+        image: { url: 'https://i.imgur.com/tStJm2M.jpeg' },
         caption: stickermenu,
       },
       { quoted: fcontact }
@@ -676,50 +677,50 @@ handler.before = async (m, { conn }) => {
   } else if (choice === '10') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' }, caption: audiomenu },
+      { image: { url: 'https://i.imgur.com/tStJm2M.jpeg' }, caption: audiomenu },
       { quoted: fcontact }
     )
   } else if (choice === '11') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' }, caption: newsmenu },
+      { image: { url: 'https://i.imgur.com/tStJm2M.jpeg' }, caption: newsmenu },
       { quoted: fcontact }
     )
   } else if (choice === '12') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' }, caption: economy },
+      { image: { url: 'https://i.imgur.com/tStJm2M.jpeg' }, caption: economy },
       { quoted: fcontact }
     )
   } else if (choice === '13') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://files.catbox.moe/r9oil6.mp4' }, caption: animemenu },
+      { image: { url: 'https://i.imgur.com/tStJm2M.jpeg' }, caption: animemenu },
       { quoted: fcontact }
     )
   } else if (choice === '14') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://files.catbox.moe/r9oil6.mp4' }, caption: nsfwmenu },
+      { image: { url: 'https://i.imgur.com/tStJm2M.jpeg' }, caption: nsfwmenu },
       { quoted: fcontact }
     )
   } else if (choice === '15') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' }, caption: toolsmenu },
+      { image: { url: 'https://i.imgur.com/tStJm2M.jpeg' }, caption: toolsmenu },
       { quoted: fcontact }
     )
   } else if (choice === '16') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' }, caption: Aimenu },
+      { image: { url: 'https://i.imgur.com/tStJm2M.jpeg' }, caption: Aimenu },
       { quoted: fcontact }
     )
   } else if (choice === '17') {
     await conn.sendMessage(
       m.chat,
       {
-        image: { url: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' },
+        image: { url: 'https://i.imgur.com/tStJm2M.jpeg' },
         caption: religionmenu,
       },
       { quoted: fcontact }
@@ -727,7 +728,7 @@ handler.before = async (m, { conn }) => {
   } else if (choice === '18') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' }, caption: pluginmenu },
+      { image: { url: 'https://i.imgur.com/tStJm2M.jpeg' }, caption: pluginmenu },
       { quoted: fcontact }
     )
   } else {
